@@ -3,10 +3,9 @@
 // let sum=0
 // for(let i=1;i<=n;i++){
 //     if(i%2===0){
-//         sum+=i
+//         console.log(i)
 //     }
 // }
-// console.log(sum)
 // 4. Tạo một biến i và sử dụng vòng lặp for để tính giai thừa của i (i!) cho một giá trị i cụ thể.
 // const i=5
 // let gt=1
