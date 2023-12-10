@@ -79,6 +79,7 @@
     
 // }
 // console.log(chuyenkhoan("Vân",1000))
+
 // Quản lý Khách hàng
 
 // let khachhang =[{
