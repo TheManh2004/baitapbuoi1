@@ -44,41 +44,41 @@
 // }
 // console.log(updatecount(5,"Phieuluuky","Vân",15))
 
-// Quản lý Tài khoản Ngân hàng
-// let taikhoanbank =[{
-//     sotaikhoan:222004567,
-//     chutaikhoan:"Mạnh",
-//     sodu:1000000,
-//     lichsugiaodich:2023,
+Quản lý Tài khoản Ngân hàng
+let taikhoanbank =[{
+    sotaikhoan:222004567,
+    chutaikhoan:"Mạnh",
+    sodu:1000000,
+    lichsugiaodich:2023,
 
-// },{
-//     sotaikhoan:222004568,
-//     chutaikhoan:"Tâm",
-//     sodu:6000000,
-//     lichsugiaodich:2024,
+},{
+    sotaikhoan:222004568,
+    chutaikhoan:"Tâm",
+    sodu:6000000,
+    lichsugiaodich:2024,
     
-// },{
-//     sotaikhoan:222004569,
-//     chutaikhoan:"Vân",
-//     sodu:9000000,
-//     lichsugiaodich:2022,
+},{
+    sotaikhoan:222004569,
+    chutaikhoan:"Vân",
+    sodu:9000000,
+    lichsugiaodich:2022,
     
-// }]
-// let transactionHistory = [];
-// function chuyenkhoan(nguoinhan,sotienchuyen) {
-//     if(sotienchuyen>0 && sodu >= sotienchuyen){
-//         sodu-=sotienchuyen
-//         nguoinhan+=sotienchuyen
-//         transactionHistory.push("Đã chuyển khoản cho",nguoinhan.chutaikhoan,"Số tiền",sotienchuyen)
-//         nguoinhan.transactionHistory.push("Nhận chuyển khoản từ",chutaikhoan,"Số tiền",sotienchuyen)
-//         console.log("Chuyển khoản thành công. Số dư mới của bạn là:",sodu)
-//     }
-//     else{
-//         console.log("Chuyển khoản không thành công vui lòng kiểm tra lại số du")
-//     }
+}]
+let transactionHistory = [];
+function chuyenkhoan(nguoinhan,sotienchuyen) {
+    if(sotienchuyen>0 && sodu >= sotienchuyen){
+        sodu-=sotienchuyen
+        nguoinhan+=sotienchuyen
+        transactionHistory.push("Đã chuyển khoản cho",nguoinhan.chutaikhoan,"Số tiền",sotienchuyen)
+        nguoinhan.transactionHistory.push("Nhận chuyển khoản từ",chutaikhoan,"Số tiền",sotienchuyen)
+        console.log("Chuyển khoản thành công. Số dư mới của bạn là:",sodu)
+    }
+    else{
+        console.log("Chuyển khoản không thành công vui lòng kiểm tra lại số du")
+    }
     
-// }
-// console.log(chuyenkhoan("Vân",1000))
+}
+console.log(chuyenkhoan("Vân",1000))
 
 // Quản lý Khách hàng
 
