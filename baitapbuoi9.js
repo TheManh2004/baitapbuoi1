@@ -84,8 +84,17 @@ const doanhthu=(id) => {
         return
     }
     const tieuchiByFilm = tieuchi.find(element => element.id === findname.addresskey)
+    const doyeuthich =tieuchi.filter((element) => element.dohay>5)
+    if(tieuchiByFilm.dohay>5){
+        console.log("Bộ phim rất được yêu thích")
     return {
         doanhthu: tieuchiByFilm.giaban*findname.sell
+        }
+    }
+    else{
+        return {
+            doanhthu: tieuchiByFilm.giaban*findname.sell
+            }
     }
 }
 console.log(doanhthu(3))
